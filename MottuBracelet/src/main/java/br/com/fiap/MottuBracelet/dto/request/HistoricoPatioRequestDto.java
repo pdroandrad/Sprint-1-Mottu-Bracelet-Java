@@ -17,12 +17,36 @@ public class HistoricoPatioRequestDto {
     public HistoricoPatioRequestDto() {}
 
     // Getters e Setters
-    public Long getMotoId() { return motoId; }
-    public void setMotoId(Long motoId) { this.motoId = motoId; }
-    public Long getPatioId() { return patioId; }
-    public void setPatioId(Long patioId) { this.patioId = patioId; }
-    public LocalDateTime getDataEntrada() { return dataEntrada; }
-    public void setDataEntrada(LocalDateTime dataEntrada) { this.dataEntrada = dataEntrada; }
-    public LocalDateTime getDataSaida() { return dataSaida; }
-    public void setDataSaida(LocalDateTime dataSaida) { this.dataSaida = dataSaida; }
+
+    public Long getMotoId() {
+        return motoId;
+    }
+
+    public void setMotoId(Long motoId) {
+        this.motoId = motoId;
+    }
+
+    public Long getPatioId() {
+        return patioId;
+    }
+
+    public void setPatioId(Long patioId) {
+        this.patioId = patioId;
+    }
+
+    public LocalDateTime getDataEntrada() {
+        return dataEntrada;
+    }
+
+    public void setDataEntrada(LocalDateTime dataEntrada) {
+        this.dataEntrada = dataEntrada;
+    }
+
+    public LocalDateTime getDataSaida() {
+        return dataSaida;
+    }
+
+    public void setDataSaida(LocalDateTime dataSaida) {
+        this.dataSaida = dataSaida;
+    }
 }

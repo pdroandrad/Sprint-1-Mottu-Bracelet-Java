@@ -40,8 +40,7 @@ public class MotoService {
         moto.setDispositivo(dispositivo);
         moto.setPatio(patio);
 
-        // Se for relação bidirecional, talvez precise disso:
-        dispositivo.setMoto(moto); // garante o lado do Dispositivo
+        dispositivo.setMoto(moto);
 
         return motoRepository.save(moto);
     }
@@ -56,7 +55,7 @@ public class MotoService {
         return motoRepository.findById(id);
     }
 
-    // READ - Por IMEI (único)
+    // READ - Por IMEI
     public Optional<Moto> buscarMotoPorImei(String imei) {
         return motoRepository.findByImei(imei);
     }

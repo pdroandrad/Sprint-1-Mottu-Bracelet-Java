@@ -18,12 +18,36 @@ public class MotoRequestDto {
     public MotoRequestDto() {}
 
     // Getters e Setters
-    public String getImei() { return imei; }
-    public void setImei(String imei) { this.imei = imei; }
-    public String getChassi() { return chassi; }
-    public void setChassi(String chassi) { this.chassi = chassi; }
-    public String getPlaca() { return placa; }
-    public void setPlaca(String placa) { this.placa = placa; }
-    public Long getPatioId() { return patioId; }
-    public void setPatioId(Long patioId) { this.patioId = patioId; }
+
+    public String getImei() {
+        return imei;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
+    }
+
+    public String getChassi() {
+        return chassi;
+    }
+
+    public void setChassi(String chassi) {
+        this.chassi = chassi;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public Long getPatioId() {
+        return patioId;
+    }
+
+    public void setPatioId(Long patioId) {
+        this.patioId = patioId;
+    }
 }

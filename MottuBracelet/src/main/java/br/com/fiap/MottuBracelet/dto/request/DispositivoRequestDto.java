@@ -14,10 +14,28 @@ public class DispositivoRequestDto {
     public DispositivoRequestDto() {}
 
     // Getters e Setters
-    public StatusDispositivo getStatus() { return status; }
-    public void setStatus(StatusDispositivo status) { this.status = status; }
-    public Long getMotoId() { return motoId; }
-    public void setMotoId(Long motoId) { this.motoId = motoId; }
-    public Long getPatioId() { return patioId; }
-    public void setPatioId(Long patioId) { this.patioId = patioId; }
+
+    public StatusDispositivo getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusDispositivo status) {
+        this.status = status;
+    }
+
+    public Long getMotoId() {
+        return motoId;
+    }
+
+    public void setMotoId(Long motoId) {
+        this.motoId = motoId;
+    }
+
+    public Long getPatioId() {
+        return patioId;
+    }
+
+    public void setPatioId(Long patioId) {
+        this.patioId = patioId;
+    }
 }

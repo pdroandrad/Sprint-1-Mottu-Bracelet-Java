@@ -16,17 +16,17 @@ public class Patio {
     @NotBlank
     private String nome;
 
-    @Embedded // Incorpora os campos de Endereco na tabela Patio
+    @Embedded
     private Endereco endereco;
 
     @NotNull
     private Integer capacidadeMaxima;
 
     @NotBlank
-    private String administradorResponsavel; // Nome ou ID do admin
+    private String administradorResponsavel;
 
     @OneToMany(mappedBy = "patio", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Moto> motosAtuais; // Lista de motos atualmente no pátio
+    private List<Moto> motosAtuais;
 
     @OneToMany(mappedBy = "patio", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Dispositivo> dispositivos;
